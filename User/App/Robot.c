@@ -51,7 +51,8 @@ void RobotTask(uint8_t mode, DBUS_Typedef *DBUS, CONTAL_Typedef *CONTAL)
             CONTAL->HEAD.Pitch = (CONTAL->HEAD.Pitch > CONTAL->HEAD.Pitch_MAX) ? CONTAL->HEAD.Pitch_MAX : CONTAL->HEAD.Pitch;
             CONTAL->HEAD.Pitch = (CONTAL->HEAD.Pitch < CONTAL->HEAD.Pitch_MIN) ? CONTAL->HEAD.Pitch_MIN : CONTAL->HEAD.Pitch;
 
-            CONTAL->HEAD.Yaw   = VisionRxData.Data.YawAngle/360.0f*8192.0f;
+            // CONTAL->HEAD.Yaw   = VisionRxData.Data.YawAngle/360.0f*8192.0f;   // 不考虑速度
+            CONTAL->HEAD.Yaw   = VisionRxData.Data.YawAngle/360.0f*8192.0f + VisionRxData.Data.YawOmega * 0.001f*8192.0f/360.0f;
         } break;
 
         case 4://发射
