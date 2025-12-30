@@ -62,6 +62,7 @@ typedef struct
         float Gimbal_dt;
         float Monitor_dt;
         float Shoot_dt;
+        float Gimbal_time;
         uint32_t Chassis_Count;
         uint32_t Gimbal_Count;
         uint32_t Monitor_Count;

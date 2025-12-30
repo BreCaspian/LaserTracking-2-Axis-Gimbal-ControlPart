@@ -16,10 +16,10 @@
 2. IROM1 0x08000000 0x80000
 
 - 视觉通信协议
-> 使用串口助手测试正常
+> 使用串口助手测试正常 云台方向左正有负 下正上负
 1. 接收
 ```c
-uint8_t test_packet[15] = {
+uint8_t test_packet[22] = {
     // 0. 帧头 (必须是 0xCD)
     0xCD, 
     // 1-4. Pitch 角度 (float: 10.5) -> Hex: 0x41280000 (小端: 00 00 28 41)
@@ -28,28 +28,28 @@ uint8_t test_packet[15] = {
     // 5-8. Yaw 角度 (float: -5.0) -> Hex: 0xC0A00000 (小端: 00 00 A0 C0)
     0x00, 0x00, 0xA0, 0xC0,
 
-    // 9. 标志位字节
-    // bit0-2: State=1 (001)
-    // bit3:   Shoot=1 (1) -> 0x08
-    // bit4:   Target=1 (1) -> 0x10
-    // 组合: 0x01 | 0x08 | 0x10 = 0x19
-    0x19,
+    // 9-12 Pitch 前馈 (float: 0.8) -> Hex: 0x3F4CCCCD
+    0xCD, 0xCC, 0x4C, 0x3F,
 
-    // 10-13. 时间戳 (uint32: 1000) -> Hex: 0x000003E8 (小端: E8 03 00 00)
-    0xE8, 0x03, 0x00, 0x00,
-    
-    // 14. 帧尾 (必须是 0xDC)
+    // 13-16 Yaw  前馈 (float: -0.3) -> Hex: 0xBE99999A
+    0x9A, 0x99, 0x99, 0xBE,
+
+    // 17-20 time ms
+    0x00, 0x00, 0x00, 0x00, 
+
+    // 21. 帧尾 (必须是 0xDC)
     0xDC
 };
 ```
 2. 发送
 ```c
-uint8_t test_packet[16]={
+uint8_t test_packet[22]={
 	0xCD, 
-	0x00, 0x0C, 0x28, 0x41,  // pitch float
+	0x00, 0x0C, 0x28, 0x41,  // pitch float 
 	0x00, 0x20, 0xA3, 0xC0,  // yaw float
-	0x01, 0x0A, 0x00, 0x00,  // 时间int
-	0x00, 0x00, 
+	0x00, 0x00, 0x00, 0x00,  // pitch omega
+    0x00, 0x00, 0x00, 0x00,  // yaw   omega
+	0x00, 0x00, 0x00, 0x00,  // 时间ms
 	0xDC
 }
 ```
@@ -58,7 +58,7 @@ uint8_t test_packet[16]={
 
 - [X] 更新通信协议
 - [ ] 添加陀螺仪对云台进行更加精细控制
-- [ ] 添加角速度收发
+- [x] 添加角速度收发
 
 
 ---

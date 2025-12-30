@@ -305,8 +305,8 @@ I (..\User\Bsp\inc\RUI_DBUS.h)(0x6950C984)
 I (..\User\Start\inc\MY_Define.h)(0x695002EB)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
 I (..\Core\Inc\gpio.h)(0x693C20AD)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\stdlib.h)(0x625260D6)
@@ -1056,8 +1056,8 @@ I (..\User\Bsp\inc\RUI_DBUS.h)(0x6950C984)
 I (..\User\Start\inc\MY_Define.h)(0x695002EB)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
 I (..\Core\Inc\gpio.h)(0x693C20AD)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\Core\Inc\can.h)(0x693C20AF)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
@@ -1066,7 +1066,7 @@ I (..\User\Bsp\inc\bsp_dwt.h)(0x685BE5B3)
 I (..\User\Algorithm\inc\user_lib.h)(0x6950198E)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\math.h)(0x625260D6)
 I (..\User\App\inc\Gimbal_Task.h)(0x69501BF2)
-F (..\User\Start\All_Task.c)(0x6951127E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/all_task.o -MD)
+F (..\User\Start\All_Task.c)(0x6953956E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/all_task.o -MD)
 I (..\User\Start\inc\All_Task.h)(0x694FBD8A)
 I (..\Core\Inc\main.h)(0x693C20B0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x67C32CCE)
@@ -1121,8 +1121,8 @@ I (..\User\Bsp\inc\RUI_DBUS.h)(0x6950C984)
 I (..\User\Start\inc\MY_Define.h)(0x695002EB)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
 I (..\Core\Inc\gpio.h)(0x693C20AD)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\Core\Inc\can.h)(0x693C20AF)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
@@ -1132,7 +1132,7 @@ I (..\User\Algorithm\inc\user_lib.h)(0x6950198E)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\math.h)(0x625260D6)
 I (..\User\App\inc\Gimbal_Task.h)(0x69501BF2)
 I (..\User\App\inc\Robot.h)(0x69501C51)
-F (..\User\Start\IRQN.c)(0x6950C137)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/irqn.o -MD)
+F (..\User\Start\IRQN.c)(0x69511A3C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/irqn.o -MD)
 I (..\User\Start\inc\IRQN.h)(0x694FF6FE)
 I (..\Core\Inc\main.h)(0x693C20B0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x67C32CCE)
@@ -1173,8 +1173,8 @@ I (..\User\Bsp\inc\RUI_DBUS.h)(0x6950C984)
 I (..\User\Start\inc\MY_Define.h)(0x695002EB)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
 I (..\Core\Inc\gpio.h)(0x693C20AD)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\stdlib.h)(0x625260D6)
@@ -1293,8 +1293,8 @@ I (..\User\Bsp\inc\RUI_DBUS.h)(0x6950C984)
 I (..\User\Start\inc\MY_Define.h)(0x695002EB)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
 I (..\Core\Inc\gpio.h)(0x693C20AD)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\Core\Inc\can.h)(0x693C20AF)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
@@ -1340,8 +1340,8 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x67C32CCE)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x67C32CCE)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x67C32CCE)
 I (..\Core\Inc\usart.h)(0x6950C08C)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\Core\Inc\can.h)(0x693C20AF)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
@@ -1422,7 +1422,7 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x67C32CCE)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
 I (..\User\Start\inc\MY_define.h)(0x695002EB)
 F (..\User\Bsp\DJI_Motor.c)(0x6950049D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/dji_motor.o -MD)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Start\inc\MY_define.h)(0x695002EB)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\Core\Inc\can.h)(0x693C20AF)
@@ -1503,8 +1503,8 @@ I (..\Core\Inc\usart.h)(0x6950C08C)
 I (..\Core\Inc\can.h)(0x693C20AF)
 I (..\User\Start\inc\All_init.h)(0x69503878)
 I (..\Core\Inc\tim.h)(0x693C20AF)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
-I (..\User\Bsp\inc\DJI_Motor.h)(0x6950C437)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
 I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
 I (..\User\Algorithm\inc\controller.h)(0x695017D1)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\stdlib.h)(0x625260D6)
@@ -1512,8 +1512,8 @@ I (..\User\Bsp\inc\bsp_dwt.h)(0x685BE5B3)
 I (..\User\Algorithm\inc\user_lib.h)(0x6950198E)
 I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\math.h)(0x625260D6)
 I (..\User\App\inc\Gimbal_Task.h)(0x69501BF2)
-F (..\User\Bsp\Vision.c)(0x6950CE50)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/vision.o -MD)
-I (..\User\Bsp\inc\Vision.h)(0x6950CACC)
+F (..\User\Bsp\Vision.c)(0x69539576)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/vision.o -MD)
+I (..\User\Bsp\inc\Vision.h)(0x69538DFE)
 I (..\Core\Inc\main.h)(0x693C20B0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x67C32CCE)
 I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693C20B0)
@@ -1546,6 +1546,21 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x67C32CCE)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x67C32CCE)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x67C32CCE)
 I (..\Core\Inc\usart.h)(0x6950C08C)
+I (..\User\Bsp\inc\DJI_Motor.h)(0x69539410)
+I (..\User\Start\inc\MY_define.h)(0x695002EB)
+I (..\User\Bsp\inc\can_bsp.h)(0x695008C9)
+I (..\Core\Inc\can.h)(0x693C20AF)
+I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\string.h)(0x625260D6)
+I (..\User\Algorithm\inc\controller.h)(0x695017D1)
+I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\stdlib.h)(0x625260D6)
+I (..\User\Bsp\inc\bsp_dwt.h)(0x685BE5B3)
+I (..\User\Algorithm\inc\user_lib.h)(0x6950198E)
+I (D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\include\math.h)(0x625260D6)
+I (..\User\Start\inc\All_init.h)(0x69503878)
+I (..\Core\Inc\tim.h)(0x693C20AF)
+I (..\User\Bsp\inc\RUI_DBUS.h)(0x6950C984)
+I (..\Core\Inc\gpio.h)(0x693C20AD)
+I (..\User\App\inc\Gimbal_Task.h)(0x69501BF2)
 F (..\User\Bsp\VOFA.c)(0x694FC5B3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../User/Start/inc -I ../User/Algorithm/inc -I ../User/App/inc -I ../User/Bsp/inc-I./RTE/_Horizon_frame_f1-ID:/RoboMaster/SoftWare/MDK537/Package/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/RoboMaster/SoftWare/MDK537/Package/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o horizon_frame_f1/vofa.o -MD)
 I (..\User\Bsp\inc\VOFA.h)(0x694FC585)
 I (..\Core\Inc\usart.h)(0x6950C08C)

@@ -29,4 +29,14 @@ horizon_frame_f1/vision.o: ..\User\Bsp\Vision.c ..\User\Bsp\inc\Vision.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  ..\Core\Inc\usart.h
+  ..\Core\Inc\usart.h ..\User\Bsp\inc\DJI_Motor.h \
+  ..\User\Start\inc\MY_define.h ..\User\Bsp\inc\can_bsp.h \
+  ..\Core\Inc\can.h \
+  D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\User\Algorithm\inc\controller.h \
+  D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  ..\User\Bsp\inc\bsp_dwt.h ..\User\Algorithm\inc\user_lib.h \
+  D:\RoboMaster\SoftWare\MDK537\ARM\ARMCLANG\Bin\..\include\math.h \
+  ..\User\Start\inc\All_init.h ..\Core\Inc\tim.h \
+  ..\User\Bsp\inc\RUI_DBUS.h ..\Core\Inc\gpio.h \
+  ..\User\App\inc\Gimbal_Task.h

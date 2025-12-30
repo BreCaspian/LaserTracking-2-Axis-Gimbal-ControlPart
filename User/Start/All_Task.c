@@ -22,21 +22,18 @@ void StartGimbalTask(void)
     for(;;)
     {
         ALL_CONTAL.DWT_TIME.Gimbal_dt = DWT_GetDeltaT(&ALL_CONTAL.DWT_TIME.Gimbal_Count);
+        ALL_CONTAL.DWT_TIME.Gimbal_time = DWT_GetTimeline_ms();
         // VOFA_justfloat((float)DBUS_V_DATA.Remote.CH0_int16, 
         //                 (float)ALL_MOTOR.M6020[YAW].DATA.Angle_Infinite,
         //                 (float)ALL_MOTOR.M6020[PITCH].DATA.Angle_Infinite,
+        //                 (float)ALL_MOTOR.M6020[PITCH].DATA.Speed_now/60.0f*2*3.14159f,
+        //                 (float)ALL_MOTOR.M6020[YAW].DATA.Speed_now/60.0f*2*3.14159f,
         //                 ALL_CONTAL.DWT_TIME.Gimbal_dt,
         //                 ALL_CONTAL.DWT_TIME.Monitor_dt,
         //                 (float) VisionRxData.Data.isOnline,
         //                 0,
-        //                 0,
-        //                 0,
-        //                 0);
-        Vision_Tx_Data((float)ALL_MOTOR.M6020[PITCH].DATA.Angle_Infinite/8192.0f*360.0f,
-                        (float)ALL_MOTOR.M6020[YAW].DATA.Angle_Infinite/8192.0f*360.0f,
-                        10,
-                        VisionRxData.Data.VisionState,
-                        0);
+        //                 ALL_CONTAL.DWT_TIME.Gimbal_time);
+        Vision_Tx_Data(&ALL_MOTOR);
         gimbal_task(&ALL_CONTAL, &ALL_MOTOR);
         RobotTask(3, &DBUS_V_DATA, &ALL_CONTAL);  // 3 自瞄 2 遥控
         osDelay(1);
